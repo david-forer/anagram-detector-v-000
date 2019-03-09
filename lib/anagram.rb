@@ -3,7 +3,7 @@ class Anagram
   attr_accessor :word 
   
   def initalize(word)
-    @words = word
+    @word = word
     
   end
   

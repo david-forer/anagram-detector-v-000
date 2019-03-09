@@ -4,11 +4,11 @@ class Anagram
   
   def initalize(word)
     @word = word
-    
   end
   
-  def match
-    @word
+  def match(array)
+    array.select do |a_word|
+      a_word.split("").sort == @word.split("").sort
   end
-  
+end
 end
